@@ -1,5 +1,6 @@
 
 # Get YouTube Subscriber
+(AlmaBetter__Capstone__Project)
 
 This project is a backend application built with Express.js and Node.js that allows users to retrieve subscriber information from YouTube channels.
 
@@ -74,13 +75,42 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Create a new Pull Request.
 
-## License
+## Folder Structure
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+        Get-Youtube_subscribers  
+├─ src                   
+│  ├─ models             
+│  │  └─ subscribers.js  
+│  ├─ app.js             
+│  ├─ createDatabase.js  
+│  ├─ data.js            
+│  ├─ index.html         
+│  └─ youtube.png        
+├─ index.js              
+├─ package-lock.json     
+├─ package.json          
+├─ Readme.md 
+
+
+## Used in this project:
+
+* Mongoose
+* Express
+* MongoDB (Atlas and Compass)
+* Raw data
+* Path module to join index.html
+* Postman || Insomnia
+* nodemon
+* dotenv
+
+## Deployment
+
+*_Live link_* <br/>
+https://get-youtube-subscriber-nx8k.onrender.com
+
 
 ## Acknowledgments
 
 Special thanks to [Express.js](https://expressjs.com/) and [Node.js](https://nodejs.org/) communities for their excellent libraries and documentation.
 ```
 
-Make sure to replace placeholders like `yourusername` and `your_youtube_api_key` with your actual GitHub username and YouTube API key, respectively. Also, ensure to update the instructions and descriptions according to your project's specific implementation.
