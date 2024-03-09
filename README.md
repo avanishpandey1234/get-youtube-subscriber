@@ -27,23 +27,5 @@ Starting the Server
 Run the following command to start the server:
 npm start
 
-
-## Application Folder Structure
-
-        Get-Youtube_subscribers  
-├─ src                   
-│  ├─ models             
-│  │  └─ subscribers.js  
-│  ├─ app.js             
-│  ├─ createDatabase.js  
-│  ├─ data.js            
-│  ├─ index.html         
-│  └─ youtube.png        
-├─ index.js              
-├─ package-lock.json     
-├─ package.json          
-├─ Readme.md             
-
-
-## Introduction
+By default, the server will run on port 3000. You can access the endpoints at `http://localhost:3000`.
 
