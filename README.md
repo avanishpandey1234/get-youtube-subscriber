@@ -49,19 +49,22 @@ By default, the server will run on port `3000`. You can access the endpoints at 
 
 - **Route:** `/subscribers`
 - **Method:** `GET`
-- **Description:** Retrieves subscriber information including channel name, subscription date, and subscriber count.
+- **Description:** Retrieves subscriber information as an array of all subscribers in the database.
+- (http://localhost:3000/subscribers)
 
 #### 2. Get Subscriber Names
 
 - **Route:** `/subscribers/names`
 - **Method:** `GET`
 - **Description:** Retrieves subscriber names along with their respective channels.
+- (http://localhost:3000/subscribers/names)
 
 #### 3. Get Subscriber Information by ID
 
 - **Route:** `/subscribers/:id`
 - **Method:** `GET`
 - **Description:** Retrieves subscriber information for a specific user using their ID.
+- (http://localhost:3000/subscribers/:id)
 
 Replace `:id` with the actual subscriber ID.
 
@@ -75,7 +78,7 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Create a new Pull Request.
 
-## Folder Structure
+## Application Folder Structure
 
         Get-Youtube_subscribers  
 ├─ src                   
@@ -92,25 +95,21 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 ├─ Readme.md 
 
 
-## Used in this project:
+## Dependecies used in this project:
 
-* Mongoose
 * Express
-* MongoDB (Atlas and Compass)
-* Raw data
-* Path module to join index.html
-* Postman || Insomnia
+* Mongoose
 * nodemon
 * dotenv
 
 ## Deployment
 
 *_Live link_* <br/>
+
 https://get-youtube-subscriber-nx8k.onrender.com
 
 
 ## Acknowledgments
 
 Special thanks to [Express.js](https://expressjs.com/) and [Node.js](https://nodejs.org/) communities for their excellent libraries and documentation.
-```
 
